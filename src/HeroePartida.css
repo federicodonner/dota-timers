@@ -24,10 +24,12 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 5px;
 }
 
 .heroe-partida-habilidad {
-  max-height: 14vh;
+  max-height: 13vh;
 }
 
 .elemento-retrato {
@@ -72,21 +74,38 @@
   position: relative;
   z-index: 1;
   font-size: 2.3em;
-  width: 40px;
   text-align: center;
   font-family: "Roboto Mono", monospace;
 }
 
-.habilidad-timers {
-  position: absolute;
-  left: 15vh;
-  top: 3px;
-  width: 48vw;
-  height: 14vh;
-  background-color: red;
-  text-align: left;
+.habilidades-cooldowns-container {
   display: flex;
-  flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+
+.habilidades-cooldown {
+  max-width: 30%;
+  height: 13vh;
+  position: relative;
+}
+
+.habilidades-cooldown-habilidad {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 11vh;
+}
+
+.habilidades-cooldown-imagen {
+  object-fit: contain;
+  height: 10vh;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
 }

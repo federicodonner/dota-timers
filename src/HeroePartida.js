@@ -57,18 +57,44 @@ export default function HeroePartida(props) {
       <div className="elemento-heroe-partida elemento-habilidad">
         {props.heroe.habilidad && (
           <>
-            <img
-              className={
-                habilidadCorriendo
-                  ? "heroe-partida-habilidad elemento en-cooldown"
-                  : "heroe-partida-habilidad elemento"
-              }
-              src={images[props.heroe.habilidad.alt]}
-              alt={props.heroe.habilidad.alt}
-              onClick={() => {
-                setHabilidadCorriendo(true);
-              }}
-            />
+            {!habilidadCorriendo && (
+              <img
+                className="heroe-partida-habilidad elemento"
+                src={images[props.heroe.habilidad.alt]}
+                alt={props.heroe.habilidad.alt}
+                onClick={() => {
+                  setHabilidadCorriendo(true);
+                }}
+              />
+            )}
+            {habilidadCorriendo && (
+              <div className="habilidades-cooldowns-container">
+                {props.heroe.habilidad.nombres.map((nombre, index) => {
+                  return (
+                    <div className="habilidades-cooldown" key={index}>
+                      <div className="habilidades-cooldown-nombre">
+                        {nombre}
+                      </div>
+                      <div className="habilidades-cooldown-habilidad">
+                        <img
+                          className={
+                            tiempoRestante[index] <= 1
+                              ? "habilidades-cooldown-imagen"
+                              : "habilidades-cooldown-imagen en-cooldown"
+                          }
+                          src={images[props.heroe.habilidad.alt]}
+                        />
+                        {tiempoRestante[index] >= 1 && (
+                          <div className="tiempo-restante-bkb">
+                            {tiempoRestante[index]}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
           </>
         )}
       </div>
