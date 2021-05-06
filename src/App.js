@@ -16,10 +16,20 @@ export default function App(props) {
     setDraft(draftActual);
   }
 
+  function reiniciarDraft() {
+    setDraft([]);
+  }
+
   return (
     <div className="app">
       <div className="content">
-        {seccion === "portada" && <Portada irASeccion={setSeccion} />}
+        {seccion === "portada" && (
+          <Portada
+            irASeccion={setSeccion}
+            reiniciarDraft={reiniciarDraft}
+            draft={draft}
+          />
+        )}
         {seccion === "draft" && (
           <Draft
             irASeccion={setSeccion}

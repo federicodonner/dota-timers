@@ -5,12 +5,11 @@ import images from "./images";
 import "./Portada.css";
 
 export default function Portada(props) {
-  // Cuando carga el state por primera vez, pre-carga todas las imágenes de los héroes
+  // Cuando carga el state reinicia el draft
   useEffect(() => {
-    heroes.forEach((heroe) => {
-      const img = new Image();
-      img.src = "/images/heroes/" + heroe.imagen;
-    });
+    if (props.draft.length > 0) {
+      props.reiniciarDraft();
+    }
   }, [props]);
 
   return (
