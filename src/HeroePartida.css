@@ -1,0 +1,92 @@
+.elemento {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+}
+
+.heroe-partida {
+  height: 15vh;
+  border-bottom: 1px gray solid;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.elemento-heroe-partida {
+  position: relative;
+  width: fit-content;
+}
+
+.elemento-habilidad {
+  flex-grow: 5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.heroe-partida-habilidad {
+  max-height: 14vh;
+}
+
+.elemento-retrato {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.heroe-partida-heroe {
+  max-height: 6vh;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.heroe-partida-bkb {
+  height: 7.7vh;
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imagen-bkb {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.en-cooldown {
+  filter: brightness(20%);
+}
+
+.tiempo-restante-bkb {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+  font-size: 2.3em;
+  width: 40px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.habilidad-timers {
+  position: absolute;
+  left: 15vh;
+  top: 3px;
+  width: 48vw;
+  height: 14vh;
+  background-color: red;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}

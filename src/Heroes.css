@@ -1,0 +1,48 @@
+.heroes {
+  display: flex;
+  width: 90vw;
+  position: absolute;
+  top: 10px;
+  flex-direction: column;
+  background-color: #1d1c25;
+}
+
+.heroes-tipo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.atributo-titulo {
+  height: 50px;
+  font-size: 2em;
+}
+
+.atributo-icono {
+  position: relative;
+  top: 4px;
+  margin-right: 6px;
+}
+
+.atributo {
+  margin-bottom: 30px;
+}
+
+.heroe-retrato {
+  position: relative;
+  margin: 2px;
+}
+
+.heroe-nombre {
+  position: absolute;
+  bottom: 5px;
+  left: 3px;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-align: left;
+}
+
+.boton-cerrar-ver-heroes {
+  margin-bottom: 30px;
+}

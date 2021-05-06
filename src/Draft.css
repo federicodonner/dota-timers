@@ -1,0 +1,23 @@
+.seleccion-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.seleccion-slot {
+  width: 90px !important;
+  height: 54px;
+  background-color: red;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 2.8em;
+}
+
+.imagen-heroe-draft {
+  position: relative;
+  left: -20px;
+  top: -10px;
+  border-radius: 6px;
+  width: 130px;
+}
