@@ -6,6 +6,9 @@ import inteligencia from "./Intelligence_attribute_symbol.webp";
 
 import bkb from "./Black_King_Bar_icon.webp";
 
+import aegis from "./Aegis_of_the_Immortal_icon.webp";
+import roshan from "./Roshan_icon.webp";
+
 import abaddon from "./heroes/Abaddon_icon.webp";
 import alchemist from "./heroes/Alchemist_icon.webp";
 import ancientapparition from "./heroes/Ancient_Apparition_icon.webp";
@@ -137,6 +140,8 @@ const images = {
   agilidad,
   inteligencia,
   bkb,
+  aegis,
+  roshan,
   abaddon,
   alchemist,
   ancientapparition,

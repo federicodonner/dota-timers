@@ -1,0 +1,68 @@
+.elemento {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+}
+
+.roshan-container {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+.en-cooldown {
+  filter: brightness(20%);
+}
+
+.aegis-activa-componente {
+  height: 7.7vh;
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 15vh;
+  height: 15vh;
+  max-width: 20vw;
+  border-radius: 6px;
+}
+
+.aegis-imagen {
+  object-fit: contain;
+  border-radius: 6px;
+  position: absolute;
+  width: 15vh;
+  height: 15vh;
+  object-fit: cover;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-width: 20vw;
+}
+
+.tiempo-restante-aegis {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.boton-reset {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 20vw;
+}
+
+.seccion-reiniciar {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
