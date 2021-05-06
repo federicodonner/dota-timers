@@ -133,6 +133,84 @@ import zeus from "./heroes/Zeus_icon.webp";
 
 import arenaofblood from "./habilidades/Arena_Of_Blood_icon.webp";
 import battletrance from "./habilidades/Battle_Trance_icon.webp";
+import blackhole from "./habilidades/Black_Hole_icon.webp";
+import borrowedtime from "./habilidades/Borrowed_Time_icon.webp";
+import burningarmy from "./habilidades/Burning_Army_icon.webp";
+import calldown from "./habilidades/Call_Down_icon.webp";
+import chainfrost from "./habilidades/Chain_Frost_icon.webp";
+import chaoticoffering from "./habilidades/Chaotic_Offering_icon.webp";
+import chemicalrage from "./habilidades/Chemical_Rage_icon.webp";
+import chronosphere from "./habilidades/Chronosphere_icon.webp";
+import darkascension from "./habilidades/Dark_Ascension_icon.webp";
+import darkrift from "./habilidades/Dark_Rift_icon.webp";
+import deathward from "./habilidades/Death_Ward_icon.webp";
+import doomhabilidad from "./habilidades/Doom_ability_icon.webp";
+import dreamcoil from "./habilidades/Dream_Coil_icon.webp";
+import duel from "./habilidades/Duel_icon.webp";
+import earthsplitter from "./habilidades/Earth_Splitter_icon.webp";
+import echoslam from "./habilidades/Echo_Slam_icon.webp";
+import eclipse from "./habilidades/Eclipse_icon.webp";
+import elderdragonform from "./habilidades/Elder_Dragon_Form_icon.webp";
+import epicenter from "./habilidades/Epicenter_icon.webp";
+import exorcism from "./habilidades/Exorcism_icon.webp";
+import eyeofthestorm from "./habilidades/Eye_of_the_Storm_icon.webp";
+import falsepromise from "./habilidades/False_Promise_icon.webp";
+import fiendsgrip from "./habilidades/Fiends_Grip_icon.webp";
+import fingerofdeath from "./habilidades/Finger_of_Death_icon.webp";
+import flaminglasso from "./habilidades/Flaming_Lasso_icon.webp";
+import fleshgolem from "./habilidades/Flesh_Golem_icon.webp";
+import freezingfield from "./habilidades/Freezing_Field_icon.webp";
+import ghostship from "./habilidades/Ghostship_icon.webp";
+import globalsilence from "./habilidades/Global_Silence_icon.webp";
+import godsstrength from "./habilidades/Gods_Strength_icon.webp";
+import guardianangel from "./habilidades/Guardian_Angel_icon.webp";
+import handofgod from "./habilidades/Hand_of_God_icon.webp";
+import haunt from "./habilidades/Haunt_icon.webp";
+import iceblast from "./habilidades/Ice_Blast_icon.webp";
+import infest from "./habilidades/Infest_icon.webp";
+import lagunablade from "./habilidades/Laguna_Blade_icon.webp";
+import macropyre from "./habilidades/Macropyre_icon.webp";
+import magnetize from "./habilidades/Magnetize_icon.webp";
+import massserpentward from "./habilidades/Mass_Serpent_Ward_icon.webp";
+import metamorphosis from "./habilidades/Metamorphosis_icon.webp";
+import moonlightshadow from "./habilidades/Moonlight_Shadow_icon.webp";
+import mortimerkisses from "./habilidades/Mortimer_Kisses_icon.webp";
+import netherstrike from "./habilidades/Nether_Strike_icon.webp";
+import omnislash from "./habilidades/Omnislash_icon.webp";
+import overgrowth from "./habilidades/Overgrowth_icon.webp";
+import phantasm from "./habilidades/Phantasm_icon.webp";
+import poisonnova from "./habilidades/Poison_Nova_icon.webp";
+import primalroar from "./habilidades/Primal_Roar_icon.webp";
+import primalsplit from "./habilidades/Primal_Split_icon.webp";
+import ravage from "./habilidades/Ravage_icon.webp";
+import reapersscythe from "./habilidades/Reapers_Scythe_icon.webp";
+import reincarnation from "./habilidades/Reincarnation_icon.webp";
+import relocate from "./habilidades/Relocate_icon.webp";
+import requiemofsouls from "./habilidades/Requiem_of_Souls_icon.webp";
+import reversepolarity from "./habilidades/Reverse_Polarity_icon.webp";
+import rollingthunder from "./habilidades/Rolling_Thunder_icon.webp";
+import rupture from "./habilidades/Rupture_icon.webp";
+import sanitysecplise from "./habilidades/Sanitys_Eclipse_icon.webp";
+import shapeshift from "./habilidades/Shapeshift_icon.webp";
+import sharpshooter from "./habilidades/Sharpshooter_icon.webp";
+import solarguardian from "./habilidades/Solar_Guardian_icon.webp";
+import songofthesiren from "./habilidades/Song_of_the_Siren_icon.webp";
+import sonicwave from "./habilidades/Sonic_Wave_icon.webp";
+import soulbind from "./habilidades/Soulbind_icon.webp";
+import stampede from "./habilidades/Stampede_icon.webp";
+import staticstorm from "./habilidades/Static_Storm_icon.webp";
+import stonegaze from "./habilidades/Stone_Gaze_icon.webp";
+import summonfamiliars from "./habilidades/Summon_Familiars_icon.webp";
+import sunstrike from "./habilidades/Sun_Strike_icon.webp";
+import supernova from "./habilidades/Supernova_icon.webp";
+import terrorize from "./habilidades/Terrorize_icon.webp";
+import thundergodswrath from "./habilidades/Thundergods_Wrath_icon.webp";
+import trueform from "./habilidades/True_Form_icon.webp";
+import wallofreplica from "./habilidades/Wall_of_Replica_icon.webp";
+import willowisp from "./habilidades/Will-O-Wisp_icon.webp";
+import winterscurse from "./habilidades/Winters_Curse_icon.webp";
+import wrathofnature from "./habilidades/Wrath_of_Nature_icon.webp";
+import wukongscommand from "./habilidades/Wukongs_Command_icon.webp";
 
 const images = {
   logo,
@@ -265,5 +343,83 @@ const images = {
   zeus,
   arenaofblood,
   battletrance,
+  blackhole,
+  borrowedtime,
+  burningarmy,
+  calldown,
+  chainfrost,
+  chaoticoffering,
+  chemicalrage,
+  chronosphere,
+  darkascension,
+  darkrift,
+  deathward,
+  doomhabilidad,
+  dreamcoil,
+  duel,
+  earthsplitter,
+  echoslam,
+  eclipse,
+  elderdragonform,
+  epicenter,
+  exorcism,
+  eyeofthestorm,
+  falsepromise,
+  fiendsgrip,
+  fingerofdeath,
+  flaminglasso,
+  fleshgolem,
+  freezingfield,
+  ghostship,
+  globalsilence,
+  godsstrength,
+  guardianangel,
+  handofgod,
+  haunt,
+  iceblast,
+  infest,
+  lagunablade,
+  macropyre,
+  magnetize,
+  massserpentward,
+  metamorphosis,
+  moonlightshadow,
+  mortimerkisses,
+  netherstrike,
+  omnislash,
+  overgrowth,
+  phantasm,
+  poisonnova,
+  primalroar,
+  primalsplit,
+  ravage,
+  reapersscythe,
+  reincarnation,
+  relocate,
+  requiemofsouls,
+  reversepolarity,
+  rollingthunder,
+  rupture,
+  sanitysecplise,
+  shapeshift,
+  sharpshooter,
+  solarguardian,
+  songofthesiren,
+  sonicwave,
+  soulbind,
+  stampede,
+  staticstorm,
+  stonegaze,
+  summonfamiliars,
+  sunstrike,
+  supernova,
+  terrorize,
+  thundergodswrath,
+  trueform,
+  wallofreplica,
+  willowisp,
+  winterscurse,
+  wrathofnature,
+  wukongscommand,
 };
 export default images;

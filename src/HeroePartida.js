@@ -83,6 +83,7 @@ export default function HeroePartida(props) {
                               : "habilidades-cooldown-imagen en-cooldown"
                           }
                           src={images[props.heroe.habilidad.alt]}
+                          alt={props.heroe.habilidad.alt}
                         />
                         {tiempoRestante[index] >= 1 && (
                           <div className="tiempo-restante-bkb">

@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Portada from "./Portada";
 import Draft from "./Draft";
 import Partida from "./Partida";
-import logo from "./images/dota-timers-logo.png";
 import "./App.css";
 
 export default function App(props) {

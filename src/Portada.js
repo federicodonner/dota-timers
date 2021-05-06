@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import heroes from "./data/heroes.js";
 import images from "./images";
 
 import "./Portada.css";
