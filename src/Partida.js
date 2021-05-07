@@ -57,16 +57,26 @@ export default function Partida(props) {
       </div>
       <div className="roshan-container">
         {!roshanCorriendo && (
-          <div className="aegis">
-            <img
-              src={images.aegis}
-              className="elemento"
-              alt="aegis"
+          <>
+            <div className="aegis">
+              <img
+                src={images.aegis}
+                className="elemento aegis-boton"
+                alt="aegis"
+                onClick={() => {
+                  setRoshanCorriendo(true);
+                }}
+              />
+            </div>
+            <div
+              className="boton-texto boton-reset"
               onClick={() => {
-                setRoshanCorriendo(true);
+                props.irASeccion("portada");
               }}
-            />
-          </div>
+            >
+              {textos[props.browserLanguage].botonTerminarPartida}
+            </div>
+          </>
         )}
         {roshanCorriendo && (
           <>
@@ -124,16 +134,7 @@ export default function Partida(props) {
           </>
         )}
       </div>
-      <div className="seccion-reiniciar">
-        <div
-          className="boton-texto boton-reset"
-          onClick={() => {
-            props.irASeccion("portada");
-          }}
-        >
-          {textos[props.browserLanguage].botonTerminarPartida}
-        </div>
-      </div>
+      <div className="seccion-reiniciar"></div>
     </div>
   );
 }
