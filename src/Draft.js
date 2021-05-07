@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Heroes from "./Heroes";
 import images from "./images";
+import textos from "./data/textos";
 import "./Draft.css";
 
 export default function Draft(props) {
@@ -39,8 +40,8 @@ export default function Draft(props) {
     <div className="draft">
       <div className="logo-container">
         <img className="logo" src={images.logo} alt="logo" />
-        <h1>Draft</h1>
-        <p>Selecciona los héroes del equipo enemigo.</p>
+        <h1>{textos[props.browserLanguage].tituloDraft}</h1>
+        <p>{textos[props.browserLanguage].instruccionesDraft}</p>
         <div className="seleccion-container">
           <div
             className="seleccion-slot boton-texto"
@@ -124,7 +125,7 @@ export default function Draft(props) {
           className="boton-texto centrado boton-comenzar"
           onClick={empezarPartida}
         >
-          Empezar partida
+          {textos[props.browserLanguage].botonEmpezarPartida}
         </div>
       )}
       {verHeroes && (

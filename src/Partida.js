@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import HeroePartida from "./HeroePartida";
 import images from "./images";
+import textos from "./data/textos";
 import "./Partida.css";
 
 export default function Partida(props) {
@@ -45,7 +46,13 @@ export default function Partida(props) {
     <div className="partida">
       <div className="heroes-partida-container">
         {props.draft.map((heroe) => {
-          return <HeroePartida heroe={heroe} key={heroe.alt} />;
+          return (
+            <HeroePartida
+              heroe={heroe}
+              browserLanguage={props.browserLanguage}
+              key={heroe.alt}
+            />
+          );
         })}
       </div>
       <div className="roshan-container">
@@ -112,7 +119,7 @@ export default function Partida(props) {
               )}
             </div>
             <div className="boton-texto boton-reset" onClick={reiniciarTimers}>
-              Reset
+              {textos[props.browserLanguage].botonResetAegis}
             </div>
           </>
         )}
@@ -124,7 +131,7 @@ export default function Partida(props) {
             props.irASeccion("portada");
           }}
         >
-          Terminar partida
+          {textos[props.browserLanguage].botonTerminarPartida}
         </div>
       </div>
     </div>

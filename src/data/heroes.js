@@ -7,7 +7,10 @@ export default [
     habilidad: {
       imagen: "Borrowed_Time_icon.webp",
       cooldowns: [60, 50, 40],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "borrowedtime",
     },
@@ -20,7 +23,10 @@ export default [
     habilidad: {
       imagen: "Chemical_Rage_icon.webp",
       cooldowns: [55, 55, 55],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "chemicalrage",
     },
@@ -33,7 +39,10 @@ export default [
     habilidad: {
       imagen: "Ice_Blast_icon.webp",
       cooldowns: [40, 40, 40],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "iceblast",
     },
@@ -59,7 +68,10 @@ export default [
     habilidad: {
       imagen: "Fiends_Grip_icon.webp",
       cooldowns: [120, 110, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "fiendsgrip",
     },
@@ -72,7 +84,10 @@ export default [
     habilidad: {
       imagen: "Flaming_Lasso_icon.webp",
       cooldowns: [120, 115, 110],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "flaminglasso",
     },
@@ -85,7 +100,10 @@ export default [
     habilidad: {
       imagen: "Primal_Roar_icon.webp",
       cooldowns: [90, 80, 70],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "primalroar",
     },
@@ -98,7 +116,10 @@ export default [
     habilidad: {
       imagen: "Rupture_icon.webp",
       cooldowns: [70, 70, 70],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "rupture",
     },
@@ -117,7 +138,10 @@ export default [
     habilidad: {
       imagen: "Primal_Split_icon.webp",
       cooldowns: [140, 130, 120],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "primalsplit",
     },
@@ -142,7 +166,10 @@ export default [
     habilidad: {
       imagen: "Stampede_icon.webp",
       cooldowns: [90, 90, 90],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "stampede",
     },
@@ -155,7 +182,10 @@ export default [
     habilidad: {
       imagen: "Phantasm_icon.webp",
       cooldowns: [75, 75, 75],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "phantasm",
     },
@@ -168,7 +198,10 @@ export default [
     habilidad: {
       imagen: "Hand_of_God_icon.webp",
       cooldowns: [160, 140, 120],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "handofgod",
     },
@@ -181,7 +214,10 @@ export default [
     habilidad: {
       imagen: "Burning_Army_icon.webp",
       cooldowns: [80, 80, 80],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "burningarmy",
     },
@@ -200,7 +236,10 @@ export default [
     habilidad: {
       imagen: "Freezing_Field_icon.webp",
       cooldowns: [110, 100, 90],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "freezingfield",
     },
@@ -213,7 +252,10 @@ export default [
     habilidad: {
       imagen: "Wall_of_Replica_icon.webp",
       cooldowns: [100, 100, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "wallofreplica",
     },
@@ -226,7 +268,10 @@ export default [
     habilidad: {
       imagen: "Terrorize_icon.webp",
       cooldowns: [100, 90, 80],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "terrorize",
     },
@@ -239,7 +284,10 @@ export default [
     habilidad: {
       imagen: "Solar_Guardian_icon.webp",
       cooldowns: [120, 110, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "solarguardian",
     },
@@ -258,7 +306,10 @@ export default [
     habilidad: {
       imagen: "Exorcism_icon.webp",
       cooldowns: [145, 145, 145],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "exorcism",
     },
@@ -271,7 +322,10 @@ export default [
     habilidad: {
       imagen: "Static_Storm_icon.webp",
       cooldowns: [90, 80, 70],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "staticstorm",
     },
@@ -284,7 +338,10 @@ export default [
     habilidad: {
       imagen: "Doom_ability_icon.webp",
       cooldowns: [145, 145, 145],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "doomhabilidad",
     },
@@ -297,7 +354,10 @@ export default [
     habilidad: {
       imagen: "Elder_Dragon_Form_icon.webp",
       cooldowns: [115, 115, 115],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "elderdragonform",
     },
@@ -316,7 +376,10 @@ export default [
     habilidad: {
       imagen: "Magnetize_icon.webp",
       cooldowns: [100, 90, 80],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "magnetize",
     },
@@ -329,7 +392,10 @@ export default [
     habilidad: {
       imagen: "Echo_Slam_icon.webp",
       cooldowns: [150, 130, 110],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "echoslam",
     },
@@ -342,7 +408,10 @@ export default [
     habilidad: {
       imagen: "Earth_Splitter_icon.webp",
       cooldowns: [120, 110, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "earthsplitter",
     },
@@ -367,7 +436,10 @@ export default [
     habilidad: {
       imagen: "Black_Hole_icon.webp",
       cooldowns: [200, 180, 160],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "blackhole",
     },
@@ -380,7 +452,10 @@ export default [
     habilidad: {
       imagen: "Chronosphere_icon.webp",
       cooldowns: [160, 160, 160],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "chronosphere",
     },
@@ -393,7 +468,10 @@ export default [
     habilidad: {
       imagen: "Soulbind_icon.webp",
       cooldowns: [100, 75, 50],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "soulbind",
     },
@@ -406,7 +484,10 @@ export default [
     habilidad: {
       imagen: "Call_Down_icon.webp",
       cooldowns: [90, 90, 90],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "calldown",
     },
@@ -419,7 +500,10 @@ export default [
     habilidad: {
       imagen: "Sharpshooter_icon.webp",
       cooldowns: [45, 45, 45],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "sharpshooter",
     },
@@ -438,7 +522,10 @@ export default [
     habilidad: {
       imagen: "Sun_Strike_icon.webp",
       cooldowns: [100, 100, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "sunstrike",
     },
@@ -451,7 +538,10 @@ export default [
     habilidad: {
       imagen: "Relocate_icon.webp",
       cooldowns: [100, 90, 80],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "relocate",
     },
@@ -464,7 +554,10 @@ export default [
     habilidad: {
       imagen: "Macropyre_icon.webp",
       cooldowns: [60, 60, 60],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "macropyre",
     },
@@ -477,7 +570,10 @@ export default [
     habilidad: {
       imagen: "Omnislash_icon.webp",
       cooldowns: [140, 140, 140],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "omnislash",
     },
@@ -490,7 +586,10 @@ export default [
     habilidad: {
       imagen: "Will-O-Wisp_icon.webp",
       cooldowns: [60, 60, 60],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "willowisp",
     },
@@ -503,7 +602,10 @@ export default [
     habilidad: {
       imagen: "Ghostship_icon.webp",
       cooldowns: [80, 70, 60],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "ghostship",
     },
@@ -516,7 +618,10 @@ export default [
     habilidad: {
       imagen: "Duel_icon.webp",
       cooldowns: [50, 50, 50],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "duel",
     },
@@ -535,7 +640,10 @@ export default [
     habilidad: {
       imagen: "Chain_Frost_icon.webp",
       cooldowns: [100, 80, 60],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "chainfrost",
     },
@@ -548,7 +656,10 @@ export default [
     habilidad: {
       imagen: "Infest_icon.webp",
       cooldowns: [100, 75, 50],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "infest",
     },
@@ -561,7 +672,10 @@ export default [
     habilidad: {
       imagen: "Laguna_Blade_icon.webp",
       cooldowns: [70, 60, 50],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "lagunablade",
     },
@@ -574,7 +688,10 @@ export default [
     habilidad: {
       imagen: "Finger_of_Death_icon.webp",
       cooldowns: [160, 100, 40],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "fingerofdeath",
     },
@@ -587,7 +704,10 @@ export default [
     habilidad: {
       imagen: "True_Form_icon.webp",
       cooldowns: [100, 100, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "trueform",
     },
@@ -600,7 +720,10 @@ export default [
     habilidad: {
       imagen: "Eclipse_icon.webp",
       cooldowns: [140, 140, 140],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "eclipse",
     },
@@ -613,7 +736,10 @@ export default [
     habilidad: {
       imagen: "Shapeshift_icon.webp",
       cooldowns: [125, 110, 95],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "shapeshift",
     },
@@ -626,7 +752,10 @@ export default [
     habilidad: {
       imagen: "Reverse_Polarity_icon.webp",
       cooldowns: [130, 130, 130],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "reversepolarity",
     },
@@ -639,7 +768,10 @@ export default [
     habilidad: {
       imagen: "Arena_Of_Blood_icon.webp",
       cooldowns: [90, 75, 60],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "arenaofblood",
     },
@@ -652,7 +784,10 @@ export default [
     habilidad: {
       imagen: "Stone_Gaze_icon.webp",
       cooldowns: [90, 90, 90],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "stonegaze",
     },
@@ -671,7 +806,10 @@ export default [
     habilidad: {
       imagen: "Moonlight_Shadow_icon.webp",
       cooldowns: [140, 120, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "moonlightshadow",
     },
@@ -684,7 +822,10 @@ export default [
     habilidad: {
       imagen: "Wukongs_Command_icon.webp",
       cooldowns: [120, 100, 80],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "wukongscommand",
     },
@@ -703,7 +844,10 @@ export default [
     habilidad: {
       imagen: "Song_of_the_Siren_icon.webp",
       cooldowns: [160, 120, 80],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "songofthesiren",
     },
@@ -716,7 +860,10 @@ export default [
     habilidad: {
       imagen: "Wrath_of_Nature_icon.webp",
       cooldowns: [85, 85, 85],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "wrathofnature",
     },
@@ -729,7 +876,10 @@ export default [
     habilidad: {
       imagen: "Reapers_Scythe_icon.webp",
       cooldowns: [120, 120, 120],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "reapersscythe",
     },
@@ -742,7 +892,10 @@ export default [
     habilidad: {
       imagen: "Dark_Ascension_icon.webp",
       cooldowns: [140, 130, 120],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "darkascension",
     },
@@ -767,7 +920,10 @@ export default [
     habilidad: {
       imagen: "Guardian_Angel_icon.webp",
       cooldowns: [160, 150, 140],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "guardianangel",
     },
@@ -780,7 +936,10 @@ export default [
     habilidad: {
       imagen: "False_Promise_icon.webp",
       cooldowns: [120, 90, 60],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "falsepromise",
     },
@@ -793,7 +952,10 @@ export default [
     habilidad: {
       imagen: "Sanitys_Eclipse_icon.webp",
       cooldowns: [160, 145, 130],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "sanitysecplise",
     },
@@ -806,7 +968,10 @@ export default [
     habilidad: {
       imagen: "Rolling_Thunder_icon.webp",
       cooldowns: [70, 70, 70],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "rollingthunder",
     },
@@ -831,7 +996,10 @@ export default [
     habilidad: {
       imagen: "Supernova_icon.webp",
       cooldowns: [120, 120, 120],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "supernova",
     },
@@ -844,7 +1012,10 @@ export default [
     habilidad: {
       imagen: "Dream_Coil_icon.webp",
       cooldowns: [80, 75, 70],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "dreamcoil",
     },
@@ -869,7 +1040,10 @@ export default [
     habilidad: {
       imagen: "Sonic_Wave_icon.webp",
       cooldowns: [125, 125, 125],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "sonicwave",
     },
@@ -882,7 +1056,10 @@ export default [
     habilidad: {
       imagen: "Eye_of_the_Storm_icon.webp",
       cooldowns: [80, 70, 60],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "eyeofthestorm",
     },
@@ -907,7 +1084,10 @@ export default [
     habilidad: {
       imagen: "Epicenter_icon.webp",
       cooldowns: [120, 110, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "epicenter",
     },
@@ -926,7 +1106,10 @@ export default [
     habilidad: {
       imagen: "Requiem_of_Souls_icon.webp",
       cooldowns: [120, 110, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "requiemofsouls",
     },
@@ -939,7 +1122,10 @@ export default [
     habilidad: {
       imagen: "Mass_Serpent_Ward_icon.webp",
       cooldowns: [120, 120, 120],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "massserpentward",
     },
@@ -952,7 +1138,10 @@ export default [
     habilidad: {
       imagen: "Global_Silence_icon.webp",
       cooldowns: [130, 115, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "globalsilence",
     },
@@ -983,7 +1172,10 @@ export default [
     habilidad: {
       imagen: "Mortimer_Kisses_icon.webp",
       cooldowns: [110, 110, 110],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "mortimerkisses",
     },
@@ -1002,7 +1194,10 @@ export default [
     habilidad: {
       imagen: "Haunt_icon.webp",
       cooldowns: [180, 160, 140],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "haunt",
     },
@@ -1015,7 +1210,10 @@ export default [
     habilidad: {
       imagen: "Nether_Strike_icon.webp",
       cooldowns: [90, 70, 50],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "netherstrike",
     },
@@ -1034,7 +1232,10 @@ export default [
     habilidad: {
       imagen: "Gods_Strength_icon.webp",
       cooldowns: [110, 110, 110],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "godsstrength",
     },
@@ -1059,7 +1260,10 @@ export default [
     habilidad: {
       imagen: "Metamorphosis_icon.webp",
       cooldowns: [155, 155, 155],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "metamorphosis",
     },
@@ -1072,7 +1276,10 @@ export default [
     habilidad: {
       imagen: "Ravage_icon.webp",
       cooldowns: [150, 150, 150],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "ravage",
     },
@@ -1103,7 +1310,10 @@ export default [
     habilidad: {
       imagen: "Overgrowth_icon.webp",
       cooldowns: [100, 100, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "overgrowth",
     },
@@ -1116,7 +1326,10 @@ export default [
     habilidad: {
       imagen: "Battle_Trance_icon.webp",
       cooldowns: [90, 90, 90],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "battletrance",
     },
@@ -1135,7 +1348,10 @@ export default [
     habilidad: {
       imagen: "Dark_Rift_icon.webp",
       cooldowns: [130, 115, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "darkrift",
     },
@@ -1148,7 +1364,10 @@ export default [
     habilidad: {
       imagen: "Flesh_Golem_icon.webp",
       cooldowns: [125, 125, 125],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "fleshgolem",
     },
@@ -1173,7 +1392,10 @@ export default [
     habilidad: {
       imagen: "Poison_Nova_icon.webp",
       cooldowns: [140, 120, 100],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "poisonnova",
     },
@@ -1192,7 +1414,10 @@ export default [
     habilidad: {
       imagen: "Summon_Familiars_icon.webp",
       cooldowns: [130, 130, 130],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "summonfamiliars",
     },
@@ -1211,7 +1436,10 @@ export default [
     habilidad: {
       imagen: "Chaotic_Offering_icon.webp",
       cooldowns: [170, 170, 170],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "chaoticoffering",
     },
@@ -1236,7 +1464,10 @@ export default [
     habilidad: {
       imagen: "Winters_Curse_icon.webp",
       cooldowns: [90, 85, 80],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "winterscurse",
     },
@@ -1249,7 +1480,10 @@ export default [
     habilidad: {
       imagen: "Death_Ward_icon.webp",
       cooldowns: [80, 80, 80],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "deathward",
     },
@@ -1262,7 +1496,10 @@ export default [
     habilidad: {
       imagen: "Reincarnation_icon.webp",
       cooldowns: [200, 120, 40],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "reincarnation",
     },
@@ -1275,7 +1512,10 @@ export default [
     habilidad: {
       imagen: "Thundergods_Wrath_icon.webp",
       cooldowns: [130, 125, 120],
-      nombres: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      nombres: {
+        "en-US": ["Level 1", "Level 2", "Level 3"],
+        es: ["Nivel 1", "Nivel 2", "Nivel 3"],
+      },
       clases: ["nivel", "nivel", "nivel"],
       alt: "thundergodswrath",
     },
