@@ -13,6 +13,7 @@ const textos = {
     botonEmpezarPartida: "Start game",
     botonResetAegis: "Reset",
     botonTerminarPartida: "Finish game",
+    botonCDItems: "CD Items",
   },
   es: {
     tituloPortada: "¡Bienvenido a Dota Timers!",
@@ -28,6 +29,7 @@ const textos = {
     botonEmpezarPartida: "Empezar partida",
     botonResetAegis: "Reset",
     botonTerminarPartida: "Terminar partida",
+    botonCDItems: "CD Items",
   },
 };
 

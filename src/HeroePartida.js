@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import images from "./images";
+import textos from "./data/textos";
 import "./HeroePartida.css";
 
 export default function HeroePartida(props) {
@@ -184,7 +185,7 @@ export default function HeroePartida(props) {
                   setMostrarCDItem(true);
                 }}
               >
-                CD item
+                {textos[props.browserLanguage].botonCDItems}
               </div>
             )}
             {cdItem[0] !== null && (
