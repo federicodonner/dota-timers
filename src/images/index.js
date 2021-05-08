@@ -4,7 +4,10 @@ import fuerza from "./Strength_attribute_symbol.webp";
 import agilidad from "./Agility_attribute_symbol.webp";
 import inteligencia from "./Intelligence_attribute_symbol.webp";
 
-import bkb from "./Black_King_Bar_icon.webp";
+import bkb from "./items/Black_King_Bar_icon.webp";
+import octarinecore from "./items/Octarine_Core_icon.webp";
+import quickeningcharm from "./items/Quickening_Charm_icon.webp";
+import spellprism from "./items/Spell_Prism_icon.webp";
 
 import aegis from "./Aegis_of_the_Immortal_icon.webp";
 import roshan from "./Roshan_icon.webp";
@@ -218,6 +221,9 @@ const images = {
   agilidad,
   inteligencia,
   bkb,
+  octarinecore,
+  quickeningcharm,
+  spellprism,
   aegis,
   roshan,
   abaddon,

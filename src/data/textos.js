@@ -1,4 +1,4 @@
-export default {
+const textos = {
   "en-US": {
     tituloPortada: "Welcome to Dota Timers!",
     instrucciones: [
@@ -30,3 +30,5 @@ export default {
     botonTerminarPartida: "Terminar partida",
   },
 };
+
+export default textos;

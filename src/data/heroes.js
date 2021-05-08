@@ -1,4 +1,4 @@
-export default [
+const heroes = [
   {
     nombre: "Abaddon",
     imagen: "Abaddon_icon.webp",
@@ -1521,3 +1521,5 @@ export default [
     },
   },
 ];
+
+export default heroes;

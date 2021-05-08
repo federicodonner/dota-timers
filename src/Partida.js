@@ -6,41 +6,34 @@ import "./Partida.css";
 
 export default function Partida(props) {
   const [roshanCorriendo, setRoshanCorriendo] = useState(false);
-  const [tiempoRestanteAegis, setTiempoRestanteAegis] = useState(300);
-  const [tiempoRestanteRoshan, setTiempoRestanteRoshan] = useState([480, 660]);
+  const [cooldownAegis, setCooldownAegis] = useState(300);
+  const [cooldownRoshan, setCooldownRoshan] = useState([480, 660]);
+  const [tiempoTranscurridoRoshan, setTiempoTranscurridoRoshan] = useState(0);
 
   useEffect(() => {
     if (roshanCorriendo) {
-      setTimeout(() => {
-        setTiempoRestanteAegis(tiempoRestanteAegis - 1);
+      var timerRoshan = setInterval(() => {
+        setTiempoTranscurridoRoshan(tiempoTranscurridoRoshan + 1);
       }, 1000);
-      if (
-        tiempoRestanteAegis <= 1 &&
-        tiempoRestanteRoshan[0] <= 1 &&
-        tiempoRestanteRoshan[1] <= 1
-      ) {
-        setRoshanCorriendo(false);
-      }
     } else {
-      setTiempoRestanteAegis(300);
-      setTiempoRestanteRoshan([480, 660]);
+      setTiempoTranscurridoRoshan(0);
     }
-  }, [roshanCorriendo, tiempoRestanteAegis]);
+    return () => {
+      clearInterval(timerRoshan);
+    };
+  }, [roshanCorriendo, tiempoTranscurridoRoshan]);
 
   useEffect(() => {
-    if (roshanCorriendo) {
-      setTimeout(() => {
-        setTiempoRestanteRoshan([
-          tiempoRestanteRoshan[0] - 1,
-          tiempoRestanteRoshan[1] - 1,
-        ]);
-      }, 1000);
+    if (
+      cooldownAegis &&
+      cooldownRoshan &&
+      tiempoTranscurridoRoshan >= cooldownAegis &&
+      tiempoTranscurridoRoshan >= cooldownRoshan[0] &&
+      tiempoTranscurridoRoshan >= cooldownRoshan[1]
+    ) {
+      setRoshanCorriendo(false);
     }
-  }, [roshanCorriendo, tiempoRestanteRoshan]);
-
-  function reiniciarTimers() {
-    setRoshanCorriendo(false);
-  }
+  }, [tiempoTranscurridoRoshan, cooldownAegis, cooldownRoshan]);
 
   return (
     <div className="partida">
@@ -84,15 +77,15 @@ export default function Partida(props) {
               <img
                 src={images.aegis}
                 className={
-                  tiempoRestanteAegis >= 1
+                  cooldownAegis - tiempoTranscurridoRoshan >= 1
                     ? "aegis-imagen en-cooldown"
                     : "aegis-imagen"
                 }
                 alt="aegis-imagen"
               />
-              {tiempoRestanteAegis >= 1 && (
+              {cooldownAegis - tiempoTranscurridoRoshan >= 1 && (
                 <div className="tiempo-restante-aegis">
-                  {tiempoRestanteAegis}
+                  {cooldownAegis - tiempoTranscurridoRoshan}
                 </div>
               )}
             </div>
@@ -100,15 +93,15 @@ export default function Partida(props) {
               <img
                 src={images.roshan}
                 className={
-                  tiempoRestanteRoshan[0] >= 1
+                  cooldownRoshan[0] - tiempoTranscurridoRoshan >= 1
                     ? "aegis-imagen en-cooldown"
                     : "aegis-imagen"
                 }
                 alt="aegis-imagen"
               />
-              {tiempoRestanteRoshan[0] >= 1 && (
+              {cooldownRoshan[0] - tiempoTranscurridoRoshan >= 1 && (
                 <div className="tiempo-restante-aegis">
-                  {tiempoRestanteRoshan[0]}
+                  {cooldownRoshan[0] - tiempoTranscurridoRoshan}
                 </div>
               )}
             </div>
@@ -116,19 +109,24 @@ export default function Partida(props) {
               <img
                 src={images.roshan}
                 className={
-                  tiempoRestanteRoshan[1] >= 1
+                  cooldownRoshan[1] - tiempoTranscurridoRoshan >= 1
                     ? "aegis-imagen en-cooldown"
                     : "aegis-imagen"
                 }
                 alt="aegis-imagen"
               />
-              {tiempoRestanteRoshan[1] >= 1 && (
+              {cooldownRoshan[1] - tiempoTranscurridoRoshan >= 1 && (
                 <div className="tiempo-restante-aegis">
-                  {tiempoRestanteRoshan[1]}
+                  {cooldownRoshan[1] - tiempoTranscurridoRoshan}
                 </div>
               )}
             </div>
-            <div className="boton-texto boton-reset" onClick={reiniciarTimers}>
+            <div
+              className="boton-texto boton-reset"
+              onClick={() => {
+                setRoshanCorriendo(false);
+              }}
+            >
               {textos[props.browserLanguage].botonResetAegis}
             </div>
           </>
