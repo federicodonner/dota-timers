@@ -13,6 +13,8 @@ export default function HeroePartida(props) {
   const [bkbCorriendo, setBkbCorriendo] = useState(false);
   const [tiempoRestanteBkb, setTiempoRestanteBkb] = useState(75);
 
+  const [octarineActivo, setOctarineActivo] = useState(false);
+
   // En cada tick del timer verifica que haya terminado el cooldown
   useEffect(() => {
     if (habilidadCorriendo) {
@@ -68,7 +70,12 @@ export default function HeroePartida(props) {
               />
             )}
             {habilidadCorriendo && (
-              <div className="habilidades-cooldowns-container">
+              <div
+                className="habilidades-cooldowns-container"
+                onClick={() => {
+                  setHabilidadCorriendo(false);
+                }}
+              >
                 {props.heroe.habilidad.nombres[props.browserLanguage].map(
                   (nombre, index) => {
                     return (
@@ -110,7 +117,7 @@ export default function HeroePartida(props) {
         <div
           className="heroe-partida-bkb elemento"
           onClick={() => {
-            setBkbCorriendo(true);
+            setBkbCorriendo(!bkbCorriendo);
           }}
         >
           {bkbCorriendo && (
