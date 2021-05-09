@@ -8,7 +8,7 @@ import textos from "./data/textos";
 import "./App.css";
 
 export default function App(props) {
-  const [seccion, setSeccion] = useState("draft");
+  const [seccion, setSeccion] = useState("portada");
   const [draft, setDraft] = useState([]);
   const [browserLanguage, setBrowserLanguage] = useState("en-US");
 
