@@ -129,7 +129,11 @@ export default function Draft(props) {
         </div>
       )}
       {verHeroes && (
-        <Heroes pickearHeroe={pickearHeroe} setVerHeroes={setVerHeroes} />
+        <Heroes
+          pickearHeroe={pickearHeroe}
+          setVerHeroes={setVerHeroes}
+          browserLanguage={props.browserLanguage}
+        />
       )}
     </div>
   );

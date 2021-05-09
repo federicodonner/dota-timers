@@ -14,6 +14,11 @@ const textos = {
     botonResetAegis: "Reset",
     botonTerminarPartida: "Finish game",
     botonCDItems: "CD Items",
+    buscadorTitulo: "Search",
+    buscadorNoCoincidencias: "No match",
+    fuerza: "Strength",
+    agilidad: "Agility",
+    inteligencia: "Intelligence",
   },
   es: {
     tituloPortada: "¡Bienvenido a Dota Timers!",
@@ -30,6 +35,11 @@ const textos = {
     botonResetAegis: "Reset",
     botonTerminarPartida: "Terminar partida",
     botonCDItems: "CD Items",
+    buscadorTitulo: "Buscador",
+    buscadorNoCoincidencias: "No hay coincidencias",
+    fuerza: "Fuerza",
+    agilidad: "Agilidad",
+    inteligencia: "Inteligencia",
   },
 };
 

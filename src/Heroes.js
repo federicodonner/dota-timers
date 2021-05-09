@@ -1,50 +1,85 @@
 import React, { useState, useEffect } from "react";
 import heroes from "./data/heroes.js";
 import images from "./images";
+import textos from "./data/textos";
 import "./Heroes.css";
 
 export default function Heroes(props) {
   const [heroesProcesados, setHeroesProcesados] = useState(null);
+  const [heroeBusqueda, setHeroeBusqueda] = useState(null);
 
   useEffect(() => {
     var fuerza = [];
     var agilidad = [];
     var inteligencia = [];
+    var heroesProcesados = [];
     heroes.forEach((heroe) => {
-      if (heroe.atributo === "Fuerza") {
-        fuerza.push(heroe);
-      } else if (heroe.atributo === "Agilidad") {
-        agilidad.push(heroe);
-      } else if (heroe.atributo === "Inteligencia") {
-        inteligencia.push(heroe);
+      if (
+        heroeBusqueda === "" ||
+        heroe.nombre.toLowerCase().search(heroeBusqueda?.toLowerCase()) > -1
+      ) {
+        if (heroe.atributo === "Fuerza") {
+          fuerza.push(heroe);
+        } else if (heroe.atributo === "Agilidad") {
+          agilidad.push(heroe);
+        } else if (heroe.atributo === "Inteligencia") {
+          inteligencia.push(heroe);
+        }
       }
     });
 
-    setHeroesProcesados([
-      {
-        atributo: "Fuerza",
+    if (fuerza.length > 0) {
+      heroesProcesados.push({
+        atributo: textos[props.browserLanguage].fuerza,
         alt: "fuerza",
         icono: "Strength_attribute_symbol.webp",
         heroes: fuerza,
-      },
-      {
-        atributo: "Agilidad",
+      });
+    }
+
+    if (agilidad.length > 0) {
+      heroesProcesados.push({
+        atributo: textos[props.browserLanguage].agilidad,
         alt: "agilidad",
         icono: "Agility_attribute_symbol.webp",
         heroes: agilidad,
-      },
-      {
-        atributo: "Inteligencia",
+      });
+    }
+
+    if (inteligencia.length > 0) {
+      heroesProcesados.push({
+        atributo: textos[props.browserLanguage].inteligencia,
         alt: "inteligencia",
         icono: "Intelligence_attribute_symbol.webp",
         heroes: inteligencia,
-      },
-    ]);
-  }, [props]);
+      });
+    }
+
+    setHeroesProcesados(heroesProcesados);
+  }, [props, heroeBusqueda]);
+
+  function busquedaHeroe(ev) {
+    setHeroeBusqueda(ev.target.value);
+  }
 
   return (
     <div className="heroes">
+      <div className="buscador">
+        <div className="buscador-titulo">
+          {textos[props.browserLanguage].buscadorTitulo}
+        </div>
+        <input
+          type="text"
+          className="buscador-texto"
+          onChange={busquedaHeroe}
+        />
+      </div>
       <div className="heroes-seccion">
+        {heroesProcesados?.length === 0 && (
+          <div className="buscador-sin-coincidencias">
+            {textos[props.browserLanguage].buscadorNoCoincidencias}
+          </div>
+        )}
         {heroesProcesados &&
           heroesProcesados.map((atributo) => {
             return (

@@ -7,6 +7,29 @@
   background-color: #1d1c25;
 }
 
+.buscador {
+  margin: 20px 0px;
+}
+
+.buscador-titulo {
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+.buscador-sin-coincidencias {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.buscador-texto {
+  padding: 5px;
+  font-size: 1.3em;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.09);
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
 .heroes-tipo-container {
   display: flex;
   flex-direction: row;
