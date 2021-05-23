@@ -47,9 +47,10 @@
   margin-right: auto;
   position: relative;
   z-index: 1;
-  font-size: 1.8em;
+  font-size: 1.5em;
   text-align: center;
   font-family: "Roboto Mono", monospace;
+  letter-spacing: -2px;
 }
 
 .boton-reset {

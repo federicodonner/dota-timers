@@ -35,6 +35,22 @@ export default function Partida(props) {
     }
   }, [tiempoTranscurridoRoshan, cooldownAegis, cooldownRoshan]);
 
+  function convertirTiempo(segundos) {
+    if (segundos <= 60) {
+      return "0:" + segundos;
+    }
+
+    if (segundos % 60 <= 9 && segundos % 60 != 0) {
+      return (segundos - (segundos % 60)) / 60 + ":0" + (segundos % 60);
+    }
+
+    if (segundos % 60 == 0) {
+      return (segundos - (segundos % 60)) / 60 + ":00";
+    }
+
+    return (segundos - (segundos % 60)) / 60 + ":" + (segundos % 60);
+  }
+
   return (
     <div className="partida">
       <div className="heroes-partida-container">
@@ -85,7 +101,7 @@ export default function Partida(props) {
               />
               {cooldownAegis - tiempoTranscurridoRoshan >= 1 && (
                 <div className="tiempo-restante-aegis">
-                  {cooldownAegis - tiempoTranscurridoRoshan}
+                  {convertirTiempo(cooldownAegis - tiempoTranscurridoRoshan)}
                 </div>
               )}
             </div>
@@ -101,7 +117,9 @@ export default function Partida(props) {
               />
               {cooldownRoshan[0] - tiempoTranscurridoRoshan >= 1 && (
                 <div className="tiempo-restante-aegis">
-                  {cooldownRoshan[0] - tiempoTranscurridoRoshan}
+                  {convertirTiempo(
+                    cooldownRoshan[0] - tiempoTranscurridoRoshan
+                  )}
                 </div>
               )}
             </div>
@@ -117,7 +135,9 @@ export default function Partida(props) {
               />
               {cooldownRoshan[1] - tiempoTranscurridoRoshan >= 1 && (
                 <div className="tiempo-restante-aegis">
-                  {cooldownRoshan[1] - tiempoTranscurridoRoshan}
+                  {convertirTiempo(
+                    cooldownRoshan[1] - tiempoTranscurridoRoshan
+                  )}
                 </div>
               )}
             </div>
