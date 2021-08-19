@@ -148,6 +148,7 @@
   left: 2vh;
   top: 2vh;
   width: fit-content;
+  max-width: 226px;
   align-items: center;
   filter: drop-shadow(0 0 1rem black);
 }
@@ -155,6 +156,7 @@
 .cd-item-imagen {
   height: 6.7vh;
   margin: 0px 2px;
+  margin-bottom: 2px;
   max-width: 17vw;
   object-fit: cover;
 }

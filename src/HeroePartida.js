@@ -167,6 +167,15 @@ export default function HeroePartida(props) {
                     setMostrarCDItem(false);
                   }}
                 />
+                <img
+                  className="cd-item-imagen elemento"
+                  src={images.arcaneblink}
+                  alt="arcaneblink"
+                  onClick={() => {
+                    setCDItem(["arcaneblink", 0.7]);
+                    setMostrarCDItem(false);
+                  }}
+                />
                 <div
                   className="boton-texto boton-no-item"
                   onClick={() => {

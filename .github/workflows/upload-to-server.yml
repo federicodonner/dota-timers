@@ -29,7 +29,6 @@ jobs:
           server: federicodonner.com
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          log-level: verbose
           local-dir: ./build/
           server-dir: dotatimers.federicodonner.com/public_html/
           dangerous-clean-slate: true

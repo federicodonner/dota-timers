@@ -8,6 +8,7 @@ import bkb from "./items/Black_King_Bar_icon.webp";
 import octarinecore from "./items/Octarine_Core_icon.webp";
 import quickeningcharm from "./items/Quickening_Charm_icon.webp";
 import spellprism from "./items/Spell_Prism_icon.webp";
+import arcaneblink from "./items/Arcane_Blink_icon.png";
 
 import aegis from "./Aegis_of_the_Immortal_icon.webp";
 import roshan from "./Roshan_icon.webp";
@@ -224,6 +225,7 @@ const images = {
   octarinecore,
   quickeningcharm,
   spellprism,
+  arcaneblink,
   aegis,
   roshan,
   abaddon,
