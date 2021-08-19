@@ -1,6 +1,7 @@
 const textos = {
   "en-US": {
     tituloPortada: "Welcome to Dota Timers!",
+    actualizadoPara: "Updated for ",
     instrucciones: [
       "Using this app is very simple. First, select the heores of the opposing team's draft.",
       "During the game, you'll see the icons for the abilities with relevant cooldowns. Pressing them, it'll start the timer and you'll be able to follow when it's back up.",
@@ -22,6 +23,7 @@ const textos = {
   },
   es: {
     tituloPortada: "¡Bienvenido a Dota Timers!",
+    actualizadoPara: "Actualizado para ",
     instrucciones: [
       "Utilizar resta aplicación es muy sencillo. Primero deberás seleccionar los heroes del equipo oponente.",
       "Durante el partido, verás las habilidades con cooldown más relevantes. Presionándolas, iniciará el cooldown y podrás seguir fácilmente si ya está disponible para cada nivel de la habilidad.",
