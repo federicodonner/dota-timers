@@ -38,7 +38,7 @@ const heroes = [
     atributo: "Inteligencia",
     habilidad: {
       imagen: "Ice_Blast_icon.webp",
-      cooldowns: [40, 40, 40],
+      cooldowns: [60, 50, 40],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
@@ -451,7 +451,7 @@ const heroes = [
     atributo: "Agilidad",
     habilidad: {
       imagen: "Chronosphere_icon.webp",
-      cooldowns: [160, 160, 160],
+      cooldowns: [160, 150, 140],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
@@ -483,7 +483,7 @@ const heroes = [
     atributo: "Agilidad",
     habilidad: {
       imagen: "Call_Down_icon.webp",
-      cooldowns: [90, 90, 90],
+      cooldowns: [90, 75, 60],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
@@ -553,7 +553,7 @@ const heroes = [
     atributo: "Inteligencia",
     habilidad: {
       imagen: "Macropyre_icon.webp",
-      cooldowns: [60, 60, 60],
+      cooldowns: [80, 70, 60],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
@@ -767,7 +767,7 @@ const heroes = [
     atributo: "Fuerza",
     habilidad: {
       imagen: "Arena_Of_Blood_icon.webp",
-      cooldowns: [90, 75, 60],
+      cooldowns: [90, 90, 90],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
@@ -891,7 +891,7 @@ const heroes = [
     atributo: "Fuerza",
     habilidad: {
       imagen: "Dark_Ascension_icon.webp",
-      cooldowns: [140, 130, 120],
+      cooldowns: [150, 140, 130],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
@@ -919,7 +919,7 @@ const heroes = [
     atributo: "Fuerza",
     habilidad: {
       imagen: "Guardian_Angel_icon.webp",
-      cooldowns: [160, 150, 140],
+      cooldowns: [160, 140, 120],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
@@ -1121,7 +1121,7 @@ const heroes = [
     atributo: "Inteligencia",
     habilidad: {
       imagen: "Mass_Serpent_Ward_icon.webp",
-      cooldowns: [120, 120, 120],
+      cooldowns: [130, 120, 110],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
@@ -1171,7 +1171,7 @@ const heroes = [
     atributo: "Fuerza",
     habilidad: {
       imagen: "Mortimer_Kisses_icon.webp",
-      cooldowns: [110, 110, 110],
+      cooldowns: [120, 110, 100],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
@@ -1325,7 +1325,7 @@ const heroes = [
     atributo: "Agilidad",
     habilidad: {
       imagen: "Battle_Trance_icon.webp",
-      cooldowns: [90, 90, 90],
+      cooldowns: [90, 80, 70],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
@@ -1413,7 +1413,7 @@ const heroes = [
     atributo: "Inteligencia",
     habilidad: {
       imagen: "Summon_Familiars_icon.webp",
-      cooldowns: [130, 130, 130],
+      cooldowns: [130, 120, 110],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
@@ -1495,7 +1495,7 @@ const heroes = [
     atributo: "Fuerza",
     habilidad: {
       imagen: "Reincarnation_icon.webp",
-      cooldowns: [200, 120, 40],
+      cooldowns: [200, 130, 60],
       nombres: {
         "en-US": ["Level 1", "Level 2", "Level 3"],
         es: ["Nivel 1", "Nivel 2", "Nivel 3"],
