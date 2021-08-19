@@ -6,8 +6,8 @@ import "./Partida.css";
 
 export default function Partida(props) {
   const [roshanCorriendo, setRoshanCorriendo] = useState(false);
-  const [cooldownAegis, setCooldownAegis] = useState(300);
-  const [cooldownRoshan, setCooldownRoshan] = useState([480, 660]);
+  const [cooldownAegis] = useState(300);
+  const [cooldownRoshan] = useState([480, 660]);
   const [tiempoTranscurridoRoshan, setTiempoTranscurridoRoshan] = useState(0);
 
   useEffect(() => {
@@ -40,11 +40,11 @@ export default function Partida(props) {
       return "0:" + segundos;
     }
 
-    if (segundos % 60 <= 9 && segundos % 60 != 0) {
+    if (segundos % 60 <= 9 && segundos % 60 !== 0) {
       return (segundos - (segundos % 60)) / 60 + ":0" + (segundos % 60);
     }
 
-    if (segundos % 60 == 0) {
+    if (segundos % 60 === 0) {
       return (segundos - (segundos % 60)) / 60 + ":00";
     }
 
