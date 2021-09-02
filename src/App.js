@@ -8,6 +8,7 @@ import textos from "./data/textos";
 import "./App.css";
 
 export default function App(props) {
+  const versionActual = "7.30b";
   const [seccion, setSeccion] = useState("portada");
   const [draft, setDraft] = useState([]);
   const [browserLanguage, setBrowserLanguage] = useState("en-US");
@@ -44,6 +45,7 @@ export default function App(props) {
             reiniciarDraft={reiniciarDraft}
             draft={draft}
             browserLanguage={browserLanguage}
+            versionActual={versionActual}
           />
         )}
         {seccion === "draft" && (

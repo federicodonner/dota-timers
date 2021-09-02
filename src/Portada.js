@@ -17,7 +17,10 @@ export default function Portada(props) {
       <div className="logo-container">
         <img className="logo" src={images.logo} alt="logo" />
         <h1>{textos[props.browserLanguage].tituloPortada}</h1>
-        <p>{textos[props.browserLanguage].actualizadoPara}7.30.</p>
+        <p>
+          {textos[props.browserLanguage].actualizadoPara}
+          {props.versionActual}.
+        </p>
         {textos[props.browserLanguage].instrucciones.map((parrafo, index) => {
           return <p key={index}>{parrafo}</p>;
         })}
